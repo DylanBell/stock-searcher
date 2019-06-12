@@ -1,13 +1,13 @@
 # Project Overview
 
-StockSearcher is a project built with React and Rails via Webpack. The system uses the embedded SQLite, and import from stored CSVs to seed the database. For search, StockSearcher utilizes SQLite's `fts5` functionality, which is initialized using the `rails initialize_table:search` rake task, and used in the `StocksController#search` function. To render the candlestick charts, StockSearcher uses CanvasJS, backed by data from IEXCloud's API.
+StockSearcher is a project built with React and Rails via Webpack. The system uses Rails' embedded SQLite3, and import from stored CSVs to seed the database. For search, StockSearcher utilizes SQLite's `fts5` functionality, which is initialized using the `rails initialize_table:search` rake task, and used in the `StocksController#search` function. To render the candlestick charts, StockSearcher uses CanvasJS, backed by data from IEXCloud's API.
 
 ## Dependencies
 - rails v5.2.3
 - ruby v2.6.1
 - yarn v1.16.0
  -- Install yarn via `https://yarnpkg.com/lang/en/docs/install/`
-- bundler >v2.0
+- bundler >=v2.0
 - node v8.16.0
 
 ## Getting it running
