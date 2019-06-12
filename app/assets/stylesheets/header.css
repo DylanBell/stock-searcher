@@ -1,0 +1,46 @@
+#header {
+  overflow: hidden;
+  background-color: #262b3e;
+  color: #f9fafb;
+  height: 4em;
+  z-index: 1000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.header-content {
+  margin-top: 1em;
+}
+
+.header-title {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.form-input {
+  color: #5c5c5c;
+}
+
+.form-button {
+  margin-left: 2em;
+}
+
+.filter-option:hover {
+  cursor: pointer;
+}
+
+.filter-option-selected {
+  background-color: #eee;
+}

@@ -1,0 +1,11 @@
+.table-wrap {
+  width: 100%;
+}
+
+.table-head {
+  flex-flow: nowrap !important;
+}
+
+.table-title {
+  padding-top: 3em;
+}

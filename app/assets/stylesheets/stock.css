@@ -1,0 +1,38 @@
+.stock-body {
+
+  background-color: #f9fafb;
+  padding: 1em;
+  border-bottom: 1px solid #e1e1e1;
+  color: #5c5c5c;
+}
+
+.stock-body:hover {
+  cursor: pointer;
+}
+
+.stock-description { }
+
+.stock-description-full {
+  margin: 0;
+}
+
+.stock-description-ticker {
+  color: #009dcf;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stock-body:hover {
+  background-color: #e8f7fe;
+}
+
+.ul-styleless {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stock-chart-container {
+  height: 400px;
+  margin-top: 1em;
+}

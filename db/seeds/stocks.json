@@ -1,0 +1,36 @@
+[
+
+	{
+    "stock_name": "Agilent Technologies",
+    "ticker": "A"
+  },
+  {
+    "stock_name": "Best Buy Co",
+    "ticker": "BBY"
+  },
+  {
+    "stock_name": "Baxter International Inc",
+    "ticker": "BAX"
+  },
+  {
+    "stock_name": "Cambrex Corp",
+    "ticker": "CBM"
+  },
+  {
+    "stock_name": "Choice Hotels International",
+    "ticker": "CHH"
+  },
+  {
+    "stock_name": "Canadian National Railway",
+    "ticker": "CNI"
+  },
+  {
+    "stock_name": "China Online Education Group",
+    "ticker": "COE"
+  },
+  {
+    "stock_name": "Campbell Soup Company",
+    "ticker": "CPB"
+  }
+
+]
